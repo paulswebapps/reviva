@@ -31,6 +31,6 @@ As we build this out, we'll need to add the following:
 
 ## Security Scopes to Roles
 
-- `
 - `room:create`: admin and super-admin
 - `provider:bookings:list`: admin, super-admin, employee
+- `booking-slots:view`: all roles

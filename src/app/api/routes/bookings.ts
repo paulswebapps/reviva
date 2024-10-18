@@ -56,6 +56,7 @@ router.post(`/`, (req: Request, res: Response) => {
     .json({ message: "Booking created successfully!", booking: newBooking });
 });
 
+// Ran out of time to figure out this Typescript error
 router.get(`/:id`, (req: Request<{ id: string }>, res: Response) => {
   schemaGetParams.parse(req.params);
   const { id } = req.params;
