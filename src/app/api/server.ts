@@ -9,6 +9,7 @@ app.use(express.json());
 
 app.use(routes);
 
+// Ran out of time to figure out this Typescript error
 app.use(errorHandler);
 
 app.listen(port, () => {
