@@ -21,8 +21,9 @@ As we build this out, we'll need to add the following:
 
 ## Entities
 
-- booking: the room, date/time, provider, customer, treatment
-- slots: room/time/treatment/provider available to book
+- customer: a person who books booking-slots
+- booking: maps booking-slot to customer
+- booking-slot: room/time/treatment/provider available to book
 - room: a location where a booking can take place
   - one room to many bookings
 - provider: a organization in which services can be booked
