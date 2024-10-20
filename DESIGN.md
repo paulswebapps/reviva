@@ -1,5 +1,9 @@
 # Reviva - Booking App
 
+## References
+
+<https://picayune-talon-09f.notion.site/Paul-Take-Home-Technical-Project-123e2d86fc8480f3b73ff4f8d3e23b7a>
+
 ## User types
 
 For this MVP, we'll focus on these two types of users:
